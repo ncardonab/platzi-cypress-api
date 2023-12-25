@@ -1,0 +1,22 @@
+{
+  "name": "platzi-cypress-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --e2e --browser electron",
+    "run:server": "json-server --watch db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "json-server": "^0.17.1",
+    "mysql": "^2.18.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "mongodb": "^4.13.0"
+  }
+}
